@@ -97,7 +97,7 @@ Kittens Carousel is a static website application deployed with Apache Web Server
 
 ## Notes
 
-- Customize the application by hard-coding your name instead of `student_name` within `index.html`.
+- Customize the application by hard-coding your name instead of `erdi` within `index.html`.
 
 ## Resources
 
