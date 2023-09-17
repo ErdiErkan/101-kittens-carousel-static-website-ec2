@@ -13,7 +13,7 @@ Resources:
         - !Ref MySecGrp
       Tags: 
         - Key: Name
-          Value: !Sub Erdi ${AWS::StackName}
+          Value: !Sub erdi1 ${AWS::StackName}
       UserData:
         Fn::Base64: |
             #! /bin/bash
@@ -40,8 +40,8 @@ Resources:
         ToPort: 80
         CidrIp: 0.0.0.0/0
       Tags:
-      - Value: 
-        Key: 
+      - Value: env
+        Key: dev
 Outputs:
   WebSiteURL:
     Description: This output gives the URL of EC2
