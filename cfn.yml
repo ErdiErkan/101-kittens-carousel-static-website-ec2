@@ -19,7 +19,7 @@ Resources:
             #! /bin/bash
             yum update -y
             yum install httpd -y
-            FOLDER="https://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@raw.githubusercontent.com/ErdiErkan/101-kittens-carousel-static-website-ec2/main/static-web"
+            FOLDER="https://raw.githubusercontent.com/ErdiErkan/101-kittens-carousel-static-website-ec2/main/static-web"
             cd /var/www/html
             wget ${FOLDER}/index.html
             wget ${FOLDER}/cat0.jpg
